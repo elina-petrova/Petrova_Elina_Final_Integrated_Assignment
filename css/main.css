@@ -111,12 +111,13 @@ body{
 	background-image: url('../images/hero_image.jpg');
 }
 
-.btn p:hover, .btn p:active {
+.btn:hover, .btn:active {
 	color: red;
 }
 
 .btn {
   width: 200px;
+  height: 70px;
   bottom: 0%;
   border: none;
   background: transparent;
@@ -130,13 +131,13 @@ body{
 }
 
 .link{
-	display: inline;
+	display: flex;
 	margin-top: 20px;
 	width: 160px;
 	color: #ddcece;
 	background-color: #060606;;
 	font-family: 'Palanquin Dark', sans-serif;
-	font-size: 22px;
+	font-size: 29px;
 	border-radius: 20px;
 	margin-left: 120px;
 	margin-top: 40px;
@@ -245,7 +246,7 @@ body{
 	background-color: yellow;
 	background-image: url("../images/tokyo_promo copy.jpg");
 }
-.city h1 {
+.city h3 {
 	font-family: 'Rubber';
 	font-size: 62px;
 	color: #c6801b;
@@ -334,7 +335,7 @@ h1{
   flex-wrap: wrap;
 }
 
-#mainContact h2 {
+#mainContact h3 {
   font-size: 30px;
   color: brown;
   margin: 0;
@@ -359,6 +360,7 @@ h1{
 }
 #contactArea h2{
 	text-align: center;
+	color: brown;
 }
 
 
@@ -429,7 +431,7 @@ input, textarea  {
 	color: #ddcece;
 	margin-top: 50px;
 }
-#mapArea h3{
+#mapArea h2{
 	margin-left: 40px;
 	font-size: 30px;
 	color: brown;
