@@ -1,4 +1,7 @@
-
+@font-face {
+  font-family: Rubber;
+  src: url(../assets/fonts/Rubber.ttf);
+}
 
 body{
 	background-color: #060606;
@@ -22,7 +25,7 @@ body{
 
 }
 #middleBar p{
-	color: white;
+	color: #ddcece;
 	padding: 10px;
 }
 
@@ -65,7 +68,7 @@ body{
 }
 #mainNav ul li{
 
-	color: white;
+	color: #ddcece;;
 	font-size: 20px;
 	display: inline;
     cursor: pointer;
@@ -74,11 +77,10 @@ body{
 }
 #mainNav ul li a:hover{
 	  color: gold;
-	  text-orientation: 
 }
 #mainNav ul li a{
 	text-decoration: none;
-	color: white;
+	color: #ddcece;
 }
 .selected{
 	;
@@ -92,7 +94,7 @@ body{
   position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
+  color: #ddcece;
   font-size: 16pt;
 }
 .heroImage {
@@ -120,7 +122,7 @@ body{
   background: transparent;
   font-size: 20px;
   cursor: pointer;
-  color: white;
+  color: #ddcece;
   font-family: 'Mariad Pro', sans-serif;
   font-weight: lighter;
   margin-top: 300px;
@@ -131,7 +133,7 @@ body{
 	display: inline;
 	margin-top: 20px;
 	width: 160px;
-	color: white;
+	color: #ddcece;
 	background-color: #060606;;
 	font-family: 'Palanquin Dark', sans-serif;
 	font-size: 22px;
@@ -142,7 +144,7 @@ body{
 }
 
 .link:hover{
-	background: white;
+	background-color: #ddcece;
 	color: black;
 
 }
@@ -171,7 +173,7 @@ body{
 	z-index: -2;
 	text-align: center;
 	border: solid 50px #6e3636;
-	color: white;
+	color: #ddcece;
 }
 #trackList h2{
 	font-size: 30px;
@@ -203,7 +205,7 @@ body{
 }
 #tourDates h2{
 	margin: 0 auto;
-	color: white;
+	color: #ddcece;
 	font-size: 40px;
 }
 .city{
@@ -214,7 +216,7 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	border: solid 2px white;
+	border: solid 2px #ddcece;
 }
 .reverse{
 	flex-direction: row-reverse;
@@ -251,7 +253,6 @@ body{
 	font-weight: lighter;
 }
 .cityText{
-	position: absolute;
 	color: #5b0a0a;
 	font-size: 25px;
 	margin: 0px;
@@ -260,14 +261,15 @@ body{
 }
 .left{
 	z-index: -2;
-	margin-left: -400px;
+	margin-left: -270px;
 	text-align: left;
 }
 .right{
 	z-index: -2;
-	margin-right: -400px;
+	margin-right: -270px;
 	text-align: right;
 }
+
 /*-- Index close --*/
 
 /*-- Discography open--*/
@@ -311,14 +313,144 @@ h1{
 	width: 700px;
 }
 #buttonNext{
-	display: absolute;
-	z-index: -1px;
+	z-index: -1;
 	height: 535px;
 	width: 85px;
 	background-color: #5b0a0a;
 }
 
 /*-- Discography close--*/
+
+/*-- Contact open --*/
+#mainContact {
+  margin-top: 100px;
+  width: 940px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+#mainContact h2 {
+  font-size: 30px;
+  color: brown;
+  margin: 0;
+  font-family:'Swis721 Blk BT', sans-serif;
+}
+#mainContact p {
+  font-size: 20px;
+  color: #ddcece;
+  font-family:  'Swis721 Blk BT', sans-serif;
+  font-weight: 300;
+  line-height: 0.5;
+}
+#contactInfo{
+	margin-bottom: 100px;
+}
+#contactInfo div {
+	margin-bottom: 30px;
+}
+#contactArea {
+	margin: 0 auto;
+	color: #ddcece;
+}
+#contactArea h2{
+	text-align: center;
+}
+
+
+#contactText {
+  margin-bottom: 30px;
+}
+
+#contactForm {
+  margin-top: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 0px;
+}
+
+
+
+input, textarea  {
+  z-index: -2;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 400px;
+  height: 25px;
+  background-color: #efefef;
+  display: block;
+  border: 1px solid #999;
+  color: black;
+}
+::placeholder {
+  font-style: italic;
+  opacity: 0.2;
+}
+#Name input{
+	z-index: -2;
+	width: 170px;
+}
+#Name {
+	z-index: -2;
+	display: flex;
+    justify-content: space-between;
+}
+
+#submit {
+  display: block;
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  margin: 0 auto;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #5aa1a0;
+  font-size: 16px;
+  border: 1px solid #003471;
+}
+#submit:hover{
+	color: black;
+	background-color: gold;
+}
+#mapArea{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	color: #ddcece;
+	margin-top: 50px;
+}
+#mapArea h3{
+	margin-left: 40px;
+	font-size: 30px;
+	color: brown;
+}
+#mapArea ul{
+	list-style-type: none;
+	font-family: 'Swis721 Blk BT', sans-serif;
+	font-size:20px;
+	margin-right: 40px;
+}
+
+.underline{
+	background-color: white;
+	height: 2px;
+}
+iframe{
+	margin-top: 25px;
+
+}
+
+/*-- Contact clode --*/
 
 
 /*-- Footer open --*/
@@ -335,7 +467,7 @@ h1{
 }
 #mainFooter ul li{
 
-	color: white;
+	color: #ddcece;
 	font-size: 40px;
     cursor: pointer;
 }
@@ -344,13 +476,13 @@ h1{
 }
 #mainFooter ul li a{
 	text-decoration: none;
-	color: white;
+	color: #ddcece;
 }
 
 
 #copyRight 
 {
-	color: white;
+	color: #ddcece;
 	margin-top: 100px;
 	margin-left: 40px;
 }
